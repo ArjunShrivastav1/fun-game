@@ -6,6 +6,9 @@ Nobtn.addEventListener("mousemove",function(details){
     r=Math.floor(Math.random()*200);
     l=Math.floor(Math.random()*300);
     Nobtn.style.position = 'absolute';
+    i.innerHTML=`<img src="bubu-bubu-dudu.gif" alt="" />`;
+    document.querySelector("h2").innerText="You Don't Love me chotuu...?";
+document.querySelector("h3").innerText="Say Yesss babyyy.....";
     // r=300;
     // l=600;
     Nobtn.style.marginLeft=r+"px"
